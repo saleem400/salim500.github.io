@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Feisal Harush</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <div class="cart-notification" id="cartNotification">0</div>
+        <button class="cart-button" id="cartButton">Cart</button>
+    </header>
+
+    <div id="productPage" class="page">
+        <!-- Product page content -->
+        <div class="container">
+            <div class="product">
+                <img src="image/posture_belt.jpg" alt="Posture Belt">
+                <div class="product-info">
+                    <h2>Posture Belt</h2>
+                    <p>Improve your posture with our high-quality posture belt. Made from durable materials, this belt provides support and comfort throughout the day. It helps alleviate back pain and promotes proper spinal alignment.</p>
+                    <p>Price: TZS 30,000</p>
+                    <p>Stock Remaining: 10 pieces</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="image/smart_watch.jpg" alt="Smart Watch">
+                <div class="product-info">
+                    <h2>Smart Watch</h2>
+                    <p>Stay connected and track your fitness goals with our smartwatch. Featuring a sleek design and advanced features, this smartwatch allows you to monitor your heart rate, track your workouts, and receive notifications from your smartphone.</p>
+                    <p>Price: TZS 32,000</p>
+                    <p>Stock Remaining: 10 pieces</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cartPage" class="page">
+        <!-- Cart page content -->
+        <header>
+            <h1>Shopping Cart</h1>
+            <button class="go-back-button">Go Back</button>
+        </header>
+        <div class="container">
+            <div class="cart-items">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-summary">
+                <h2>Summary</h2>
+                <div class="summary-item">
+                    <span>Total Items:</span>
+                    <span id="totalItems">0</span>
+                </div>
+                <div class="summary-item">
+                    <span>Total Price:</span>
+                    <span id="totalPrice">TZS 0</span>
+                </div>
+                <div class="summary-item">
+                    <span>Delivery Price:</span>
+                    <span id="deliveryPrice">TZS 5000</span>
+                </div>
+                <div class="summary-item">
+                    <span>Grand Total:</span>
+                    <span id="grandTotal">TZS 0</span>
+                </div>
+                <button class="checkout-button">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
